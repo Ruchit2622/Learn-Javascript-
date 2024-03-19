@@ -14,3 +14,10 @@ let userEmail;
 // Reference (Non-Primitive)
 
 // Array, Objects, Functions
+
+
+
+
+/***************************** Memory ********************************** */
+
+// Stack(primitive), Heap(non-primitive)
