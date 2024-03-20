@@ -18,7 +18,7 @@ console.log(hundreds.toLocaleString('en-IN'));
 /*************************** Maths *************************** */
 
 //console.log(Math);
-//console.log(Math.abs(-4));
+//console.log(Math.abs(-4)); 7 
 //console.log(Math.ceil(4.01));
 //console.log(Math.floor(4.9));
 //console.log(Math.min(4,3,6,8));

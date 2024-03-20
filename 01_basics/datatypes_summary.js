@@ -9,9 +9,8 @@ const isLoggedIn = false
 const outsideTemp = null
 let userEmail;
 
-
-
 // Reference (Non-Primitive)
+
 
 // Array, Objects, Functions
 
@@ -19,5 +18,6 @@ let userEmail;
 
 
 /***************************** Memory ********************************** */
+
 
 // Stack(primitive), Heap(non-primitive)
