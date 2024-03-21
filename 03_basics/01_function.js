@@ -30,13 +30,13 @@ function loginUserMessage(username){
 }
 
 // console.log(loginUserMessage("Ruchit"))
-console.log(loginUserMessage())
+console.log(loginUserMessage("RP"))
 
 function calculateCartPrice(...num1){
         return num1
 }
 
-console.log(calculateCartPrice(200, 400, 600, 800, 1000));
+console.log(calculateCartPrice(82, 55, 100, 33, 8, 132));
 
 const user = {
      username: "Ruchit",
