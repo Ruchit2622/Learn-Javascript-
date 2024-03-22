@@ -1,8 +1,8 @@
 
 // Example
 
-const seatBook = 3 
-var ticketPrice = 1500
+const seatBook = 5 
+var ticketPrice = 1800
 
 if(ticketPrice == 10000){
     console.log("Your Vip (PRIME) Ticket Booked Succesfully.");
@@ -11,7 +11,7 @@ if(ticketPrice == 10000){
     console.log("Total (Including Food):",ticketPrice*seatBook);
     console.log("Tickets Arrive In Home In Next 4-5 Working Days.");
     return
-}
+}   
 
 if(ticketPrice < 1000){
     console.log("Ticket Price Not Available For This Range. Available Range Is 1800 to 2000 And Vip Ticket Is 10,000");
