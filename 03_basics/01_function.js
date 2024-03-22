@@ -30,13 +30,13 @@ function loginUserMessage(username){
 }
 
 // console.log(loginUserMessage("Ruchit"))
-console.log(loginUserMessage("RP"))
+console.log(loginUserMessage("Harsh"))
 
-function calculateCartPrice(...num1){
+function calculateCartPrice(num1){
         return num1
 }
 
-console.log(calculateCartPrice(82, 55, 100, 33, 8, 132));
+console.log(calculateCartPrice(7, 6.30, 6, 5.30,  5, 4.30, 4, 3.30, 3, 2.30, 2, 1.30, 1, 0.30));
 
 const user = {
      username: "Ruchit",
@@ -49,5 +49,6 @@ function handleObject(anyobject){
 
 // handleObject(user)
 handleObject({
-    
+    username: "sam",
+    price: 99
 })
