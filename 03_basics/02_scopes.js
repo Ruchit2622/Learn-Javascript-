@@ -1,6 +1,6 @@
 
 // Example
-
+/*
 const seatBook = 5 
 var ticketPrice = 1800
 
@@ -44,3 +44,45 @@ else{
  console.log("Ticket Price :",ticketPrice);
  console.log("Total (5% Discount) :",ticketPrice*seatBook/1.05);
  console.log("Tickets Arrive In Home In Next 4-5 Working Days.");
+*/
+
+
+function one(){
+    const username = "Ruchit"
+
+    function two(){
+        const website = "Youtube"
+        console.log(username);
+    }
+    // console.log(website);
+
+    two()
+}
+
+// one()
+
+if(true) {
+    const username = "RP"
+    if (username === "RP"){
+        const website = "Youtube"
+        // console.log(username + website);
+    }
+    // console.log(website);
+}
+
+// console.log(username)
+
+// +++++++++++++++++++++++  Intresting  +++++++++++++++++++++++++++++++
+
+console.log(addone(5))                                                                                                                      
+
+function addone(num){
+    return num + 1
+}
+
+
+const addTwo = function(num){
+    return num + 2
+}
+
+console.log(addTwo(5))
