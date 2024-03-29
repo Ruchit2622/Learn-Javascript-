@@ -36,7 +36,7 @@ function calculateCartPrice(...num1){
         return num1
 }
 
-console.log(calculateCartPrice(488, 395, 337, 322, 269, 205, 157, 100, 68, 32));
+console.log(calculateCartPrice(488, 395, 334, 322, 269, 205, 157, 100, 68, 32));
 
 const user = {
      username: "Ruchit",
