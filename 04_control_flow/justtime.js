@@ -1,19 +1,23 @@
-const matchNo = 12
-const ticketPrice = 5000
-const seatBook = 8
-const location = "b-501,narths banglos,nikol,ahmedabad-380025"
-const mobileNo = "9327351824"
+const matchNo = 10
+const ticketPrice = 2500
+const seatBook = 5
+const location = "ghare mara"
+const mobileNo = "nathi khaber"
 const payment = "paytm"
 
 
-if(matchNo < 8){
-    console.log("matches is finished. available match is 8 to 65");
+if(matchNo < 10){
+    console.log("matches is finished. available match is 10 to 65");
     return
 }
 
 if(matchNo > 65){
-    console.log("not available match. available match is 8 to 65");
+    console.log("not available match. available match is 10 to 65");
     return
+}
+
+if (matchNo == 10) {
+    console.log("RCB VS KKR");
 }
 
 if(ticketPrice<1800){
