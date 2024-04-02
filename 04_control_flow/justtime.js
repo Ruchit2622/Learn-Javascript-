@@ -1,8 +1,8 @@
-const matchNo = 10
+const matchNo = 14
 const ticketPrice = 2500
-const seatBook = 5
-const location = "ghare mara"
-const mobileNo = "nathi khaber"
+const seatBook = 2
+const location = "vastral ,ahmedabad"
+const mobileNo = "9327351824"
 const payment = "paytm"
 
 
@@ -69,7 +69,7 @@ if (payment === "paytm") {
     console.log("payment in this paytm number(9106330710).");
     console.log("payment and send ss to whatsapp. under 2 hour payment is confirmed.");
     console.log("order is confirmed message in your register mobile number.");
-    console.log(`Delivery in this location : ${location}`)
+    console.log(`Delivery in this location : ${location} ${mobileNo}`)
     return
 }
 
