@@ -3,7 +3,7 @@ const ticketPrice = 2500
 const seatBook = 5
 const location = "Ahmedabad,India"
 const mobileNo = "9327351824"
-const payment = "payt"
+const payment = "gpay"
 
 
 if(matchNo < 18){

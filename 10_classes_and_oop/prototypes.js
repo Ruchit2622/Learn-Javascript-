@@ -15,11 +15,11 @@ let heroPower = {
 }
 
 Object.prototype.ruchit =function(){
-    console.log(`ruchit is present in all object`);
+    // console.log(`ruchit is present in all object`);
 }
 
 Array.prototype.heyruchit = function(){
-    console.log(`Ruchit Says Hello `);
+    // console.log(`Ruchit Says Hello `);
 }
 
 // heroPower.ruchit()
@@ -53,9 +53,15 @@ Teacher.__proto__ = User
 // Modern Syntax
 Object.setPrototypeOf(TeachingSupport, Teacher)
 
-let anotherUsername = "ChaiAurCode      "
+let anotherUsername = "ChaiAurCode   "
 
 String.prototype.trueLength = function(){
     console.log(`${this}`);
-    console.log(`${this.name}`);
+    // console.log(`${this.name}`);
+    console.log(`True length is: ${this.trim().length}`);
 }
+
+anotherUsername.trueLength()
+"ruchit".trueLength()
+"icetea".trueLength()
+"what are you doing".trueLength()
