@@ -7,7 +7,7 @@
 //         break;
 // }
 
-const month = 3
+const month = 5
 
 switch (month) {
     case 1:
@@ -21,6 +21,15 @@ switch (month) {
         break;
     case 4:
         console.log("April");
+        break;
+    case 5:
+        console.log("May");
+        break;
+    case 6:
+        console.log("June");
+        break;
+    case 7:
+        console.log("July");
         break;
 
     default:

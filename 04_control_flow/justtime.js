@@ -1,13 +1,13 @@
-const matchNo = 14
+const matchNo = 19 
 const ticketPrice = 2500
-const seatBook = 2
-const location = "vastral ,ahmedabad"
+const seatBook = 5
+const location = "Ahmedabad,India"
 const mobileNo = "9327351824"
-const payment = "paytm"
+const payment = "payt"
 
 
-if(matchNo < 10){
-    console.log("matches is finished. available match is 10 to 65");
+if(matchNo < 18){
+    console.log("matches is finished. available match is 18 to 65");
     return
 }
 
